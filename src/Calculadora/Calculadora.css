@@ -1,0 +1,22 @@
+.campo-texto {
+    margin-top: 2rem;
+}
+
+.campo-texto label,
+.campo-texto input {
+    margin: .5rem 0;
+}
+
+.campo-texto label {
+    margin-right: .7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.campo-texto input {
+    border: 2px solid #004681;
+    font-weight: 600;
+    padding: .3em 0;
+    padding-left: .3rem;
+}
+
