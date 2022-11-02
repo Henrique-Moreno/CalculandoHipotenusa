@@ -5,11 +5,13 @@ import Calculadora from './Calculadora';
 
 function App() {
 
+  const calcularRaizQuadrada = Math.sqrt
+
   const calculorHipotenusa = useCallback((ladoA, ladoB) => {
     const quadradoA = Math.pow(ladoA, 2)
     const quadradoB = Math.pow(ladoB, 2)
-    return Math.sqrt(quadradoA + quadradoB)
-  }, [])
+    return calcularRaizQuadrada(quadradoA + quadradoB)
+  }, [calcularRaizQuadrada])
 
   return (
     <div className="App">
